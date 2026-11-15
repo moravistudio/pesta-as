@@ -225,7 +225,12 @@
     .nav-mobile a { font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--texto); text-decoration: none; letter-spacing: 1px; }
     .nav-mobile a:hover { color: var(--rose-dark); }
     .nav-mobile-close { position: absolute; top: 24px; right: 28px; font-size: 28px; cursor: pointer; color: var(--texto); background: none; border: none; }
-  </style>
+  /* Firma de Moravi Studio (mismo texto que Libraica) */
+.firma-moravi { margin: 16px 0 0; text-align: center; font-size: 12px; line-height: 1.5; color: rgba(255,255,255,0.62); }
+.firma-moravi a { color: rgba(255,255,255,0.88); text-decoration: underline; text-underline-offset: 2px; }
+/* La barra fija «Reservar ahora» tapa el final de la página: se deja espacio para que la firma se vea */
+footer { padding-bottom: 96px; }
+</style>
 </head>
 <body>
 
@@ -451,6 +456,7 @@
     <p class="footer-copy">© 2026 Lash Atelier · Todos los derechos reservados</p>
     <p class="footer-copy">Hecho con 🤍 en Lima, Perú</p>
   </div>
+  <p class="firma-moravi">Desarrollado por <a href="https://www.moravistudio.com/" target="_blank" rel="noopener">moravistudio.com</a></p>
 </footer>
 
 <!-- FLOATING BOOKING BAR -->
